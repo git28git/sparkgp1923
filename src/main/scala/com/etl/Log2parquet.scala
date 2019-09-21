@@ -1,7 +1,8 @@
 package com.etl
 
 import com.util.{SchemaUtil, String2Type}
-import org.apache.spark.sql.{Row, SQLContext}
+import org.apache.spark.rdd.RDD
+import org.apache.spark.sql.{DataFrame, Row, SQLContext, SparkSession}
 import org.apache.spark.{SparkConf, SparkContext}
 
 /**
@@ -29,8 +30,9 @@ object Log2parquet {
     sQLContext.setConf("spark.sql.parquet.compression.codec","snappy")
     // 处理数据
     val lines = sc.textFile(inputPath)
+    val sparkSession = SparkSession.builder().config(conf).getOrCreate()
     // 设置过滤条件和切分条件 内部如果切割条件相连过多，那么 需要设置切割处理条件
-    val rowRDD = lines.map(t=>t.split(",",-1)).filter(t=>t.length>=85).map(arr=>{
+    val rowRDD: RDD[Row] = lines.map(t=>t.split(",",-1)).filter(t=>t.length>=85).map(arr=>{
       Row(
         arr(0),
         String2Type.toInt(arr(1)),
@@ -119,9 +121,10 @@ object Log2parquet {
         String2Type.toInt(arr(84))
       )
     })
-    val df = sQLContext.createDataFrame(rowRDD,SchemaUtil.structType)
+    val df: DataFrame = sQLContext.createDataFrame(rowRDD,SchemaUtil.structType)
     df.write.parquet(outputPath)
     // 关闭
     sc.stop()
+    sparkSession.stop()
   }
 }
