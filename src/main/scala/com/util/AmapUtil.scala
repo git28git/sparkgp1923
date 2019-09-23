@@ -20,7 +20,7 @@ object AmapUtil {
     // 获取URL
     val url = "https://restapi.amap.com/v3/geocode/regeo?location="+location+"&key=59283c76b065e4ee401c2b8a4fde8f8b"
     //调用Http接口发送请求
-    val jsonstr = HttpUtil.get(url)
+    val jsonstr: String = HttpUtil.get(url)
     // 解析json串
     val jSONObject1 = JSON.parseObject(jsonstr)
     // 判断当前状态是否为 1
