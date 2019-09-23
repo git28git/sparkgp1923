@@ -4,31 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/src/main/scala/com/Location/ProCityCt.scala" line="42" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3705677c-59da-46d0-9c69-e2b6faeb7645" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsAPP.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsContext2.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsDevice.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsKword.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsLocation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/graph/GraphTest.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/com/util/Test.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exam/Demo1.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/exam/Demo2.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsAd.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsAd.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsContext.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com.Tags/TagsContext.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/util/AmapUtil.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/util/AmapUtil.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/com/util/TagUtils.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$4$$anonfun$apply$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$4$$anonfun$apply$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$5$$anonfun$apply$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$5$$anonfun$apply$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$$anonfun$6.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/Location/app$.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/Location/app$.class" afterDir="false" />
-    </list>
+    <list default="true" id="3705677c-59da-46d0-9c69-e2b6faeb7645" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,8 +65,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/com/graph/GraphTest.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+            <state relative-caret-position="206">
+              <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
               <folding>
                 <element signature="e#19#63#0" expanded="true" />
               </folding>
@@ -223,9 +199,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="112" />
-    <option name="width" value="1723" />
-    <option name="height" value="1038" />
+    <option name="x" value="111" />
+    <option name="width" value="1724" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -319,7 +295,7 @@
   <component name="PropertiesComponent">
     <property name="ChangesTree.GroupingKeys" value="module&#10;directory" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/scala/com/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -492,14 +468,28 @@
       <option name="project" value="LOCAL" />
       <updated>1569058946632</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="图计算案例实现">
+      <created>1569241527717</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1569241527717</updated>
+    </task>
+    <task id="LOCAL-00005" summary="图计算案例实现">
+      <created>1569241575749</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1569241575749</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="90" y="0" width="1378" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.24242425" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4984227" visible="true" weight="0.24242425" />
       <window_info id="Structure" order="1" sideWeight="0.50157726" side_tool="true" weight="0.16945107" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,7 +520,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="基本指标的实现" />
     <MESSAGE value="商圈的实现" />
-    <option name="LAST_COMMIT_MESSAGE" value="商圈的实现" />
+    <MESSAGE value="图计算案例实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="图计算案例实现" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
@@ -784,8 +775,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/com/graph/GraphTest.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="31" column="49" lean-forward="true" selection-start-line="31" selection-start-column="49" selection-end-line="31" selection-end-column="49" />
+        <state relative-caret-position="206">
+          <caret line="17" column="21" lean-forward="true" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
           <folding>
             <element signature="e#19#63#0" expanded="true" />
           </folding>
